@@ -37,6 +37,19 @@ namespace dataTypesWork
             Console.WriteLine(capsMessage);
             Console.WriteLine(lowMessage);
 
+            //classes use pascal case: NewClassName
+            //method names use pascal case
+            //method arguments use camel case: firstNumber
+            //local variables use camel case
+            //don't use abbreviations: userControl not usrCtr
+            //dont use numbers at the start of variable names: int cars3 not int 3cars
+            //underscores only at the beginning of variable names: _loginDate not login_Date
+            //use lowercase for datatypes: string not String, int not Int, bool not Boolean
+            //classes use nouns or noun phrases: Program, Employee, BusinessDate
+            //methods are actions so use verbs and verb phrases
+            //www.dofactory.com/reference/csharp-coding-standards for more information
+
+
         }
     }
 }
