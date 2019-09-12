@@ -77,6 +77,18 @@ namespace dataTypesWork
 
             Console.WriteLine(myFloatString);
             Console.WriteLine(myBoolString);
+
+
+            string myNewString = "15";
+            string mySecondString = "13";
+            int numFromString = Int32.Parse(myNewString);
+            int numFromString2 = Int32.Parse(mySecondString);
+
+            string result = myNewString + mySecondString;
+            int resultInt = numFromString + numFromString2;
+
+            Console.WriteLine(result);
+            Console.WriteLine(resultInt);
         }
     }
 }
