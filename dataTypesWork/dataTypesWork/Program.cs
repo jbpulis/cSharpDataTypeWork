@@ -93,8 +93,41 @@ namespace dataTypesWork
             Console.WriteLine(result);
             Console.WriteLine(resultInt + "\n");
 
+            //------------------------------------
 
+            byte myByte = 1;
+            Console.WriteLine(myByte);
+            sbyte mySbyte = 12;
+            Console.WriteLine(mySbyte);
+            int myIntTest = 12453;
+            Console.WriteLine(myIntTest);
+            uint myUint = 123452;
+            Console.WriteLine(myUint);
+            short myShort = 23987;
+            Console.WriteLine(myShort);
+            ushort myUshort = 65000;
+            Console.WriteLine(myUshort);
+            long myLongTest = 243958889;
+            Console.WriteLine(myLongTest);
+            ulong myUlong = 592349857;
+            Console.WriteLine(myUlong);
+            float myFloatTest = 345.234f;
+            Console.WriteLine(myFloatTest);
+            double myDoubleTest = 56234.65433;
+            Console.WriteLine(myDoubleTest);
+            char myChar = 'A';
+            Console.WriteLine(myChar);
+            bool myBool = false;
+            Console.WriteLine(myBool);
+            decimal myDecimal = 342.2345675434566m;
+            Console.WriteLine(myDecimal);
+            string myStringTest = "I control text";
+            Console.WriteLine(myStringTest);
+            string myNumStringTest = "213";
+            int myNumStringTestInt = Int32.Parse(myNumStringTest);
+            Console.WriteLine(myNumStringTestInt + "\n");
 
+            //---------------------------------------
         }
     }
 }
