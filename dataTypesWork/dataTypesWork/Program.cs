@@ -22,6 +22,21 @@ namespace dataTypesWork
             Console.WriteLine("The sum of " + num1 + " and " + num2 + " is " + sum);
             Console.WriteLine("The sum of " + d1 + " and " + d2 + " is " + sumD);
             Console.WriteLine("The sum of " + f1 + " and " + f2 + " is " + sumF);
+
+
+
+            string myName = "Jason";
+            string message = "My name is " + myName + "!";
+
+            string capsMessage = message.ToUpper();
+            string lowMessage = capsMessage.ToLower();
+
+            Console.WriteLine(myName);
+            Console.WriteLine("My name is " + myName);
+            Console.WriteLine(message);
+            Console.WriteLine(capsMessage);
+            Console.WriteLine(lowMessage);
+
         }
     }
 }
