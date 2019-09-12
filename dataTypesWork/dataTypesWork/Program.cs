@@ -37,6 +37,7 @@ namespace dataTypesWork
             Console.WriteLine(capsMessage);
             Console.WriteLine(lowMessage);
 
+
             //classes use pascal case: NewClassName
             //method names use pascal case
             //method arguments use camel case: firstNumber
@@ -50,6 +51,32 @@ namespace dataTypesWork
             //www.dofactory.com/reference/csharp-coding-standards for more information
 
 
+            //implicit conversion: can go from less to greater precision but not the other way
+            int num = 12390532;
+            long bigNum = num;
+
+            float myFloat = 13.37f;
+            double myNewDouble = myFloat;
+
+            //explicit conversion
+            double myDouble = 13.37;
+            int myInt;
+            //cast double to int
+            myInt = (int)myDouble;
+
+            Console.WriteLine(myInt);
+
+            //type conversion
+            string myString = myDouble.ToString();
+            string myIntString = num.ToString();
+            string myLongString = bigNum.ToString();
+            string myFloatString = myFloat.ToString();
+
+            bool sunIsShining = false;
+            string myBoolString = sunIsShining.ToString();
+
+            Console.WriteLine(myFloatString);
+            Console.WriteLine(myBoolString);
         }
     }
 }
