@@ -21,9 +21,9 @@ namespace dataTypesWork
             Console.WriteLine(num1);
             Console.WriteLine("The sum of " + num1 + " and " + num2 + " is " + sum);
             Console.WriteLine("The sum of " + d1 + " and " + d2 + " is " + sumD);
-            Console.WriteLine("The sum of " + f1 + " and " + f2 + " is " + sumF);
+            Console.WriteLine("The sum of " + f1 + " and " + f2 + " is " + sumF + "\n");
 
-
+            //---------------------------------------------
 
             string myName = "Jason";
             string message = "My name is " + myName + "!";
@@ -35,8 +35,9 @@ namespace dataTypesWork
             Console.WriteLine("My name is " + myName);
             Console.WriteLine(message);
             Console.WriteLine(capsMessage);
-            Console.WriteLine(lowMessage);
+            Console.WriteLine(lowMessage + "\n");
 
+            //-------------------------------------------------
 
             //classes use pascal case: NewClassName
             //method names use pascal case
@@ -50,6 +51,7 @@ namespace dataTypesWork
             //methods are actions so use verbs and verb phrases
             //www.dofactory.com/reference/csharp-coding-standards for more information
 
+            //------------------------------------------------
 
             //implicit conversion: can go from less to greater precision but not the other way
             int num = 12390532;
@@ -76,8 +78,9 @@ namespace dataTypesWork
             string myBoolString = sunIsShining.ToString();
 
             Console.WriteLine(myFloatString);
-            Console.WriteLine(myBoolString);
+            Console.WriteLine(myBoolString + "\n");
 
+            //-----------------------------------
 
             string myNewString = "15";
             string mySecondString = "13";
@@ -88,7 +91,10 @@ namespace dataTypesWork
             int resultInt = numFromString + numFromString2;
 
             Console.WriteLine(result);
-            Console.WriteLine(resultInt);
+            Console.WriteLine(resultInt + "\n");
+
+
+
         }
     }
 }
