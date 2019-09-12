@@ -4,6 +4,11 @@ namespace dataTypesWork
 {
     class MainClass
     {
+        //constants as fields
+        const double PI = 3.1415926539;
+        const int weeks = 52, months = 12;
+        const string birthday = "02AUG1983";
+
         public static void Main(string[] args)
         {
             int num1 = 13;
@@ -126,6 +131,15 @@ namespace dataTypesWork
             string myNumStringTest = "213";
             int myNumStringTestInt = Int32.Parse(myNumStringTest);
             Console.WriteLine(myNumStringTestInt + "\n");
+
+            //---------------------------------------
+
+            //constants are immutable values which are known at the compile time
+            //and do not change for the life of the program
+
+            //constants are declared at the top of the program prior to the main
+
+            Console.WriteLine("My birthday is always going to be: {0}", birthday);
 
             //---------------------------------------
         }
